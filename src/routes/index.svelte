@@ -1,2 +1,9 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+	import GCF from '../components/gcf.svelte';
+	
+</script>
+
+<div class="bg-gradient-to-tr to-blue-300 from-pink-400 h-screen flex items-center justify-center">
+ <GCF/>
+</div>
+

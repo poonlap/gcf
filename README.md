@@ -1,5 +1,5 @@
 # Good - Cheap - Fast : Svelte example
-After knowing [Svelte](https://svelte.dev/) and [Sveltekit](https://kit.svelte.dev/) for a while, I try to learn by doing. It came to me that Good-Cheap-Fast toggles can be a good study scenario.
+After knowing [Svelte](https://svelte.dev/) and [Sveltekit](https://kit.svelte.dev/) for a while, I try to learn by doing. It think that Good-Cheap-Fast toggles can be a good study scenario.
 
 If you are selling service to someone, your customer may want you to provide Good, Cheap and Fast services. In most occasion, it is difficult to fullfill all three. 
 - Good & Cheap won't be Fast

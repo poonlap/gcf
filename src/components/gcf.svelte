@@ -32,34 +32,62 @@
 	}
 </script>
 
-<div>
-	<div class="tog-contaiiner">
-		<input
-			id="g"
-			type="checkbox"
-			class="toggle toggle-lg toggle-primary drop-shadow-lg"
-			bind:checked={gcf.g}
-			on:click|preventDefault={onClick}
-		/> <span class="text text-primary">Good</span>
-	</div>
-	<div class="tog-contaiiner">
-		<input
-			id="c"
-			type="checkbox"
-			class="toggle toggle-lg toggle-secondary drop-shadow-lg"
-			bind:checked={gcf.c}
-			on:click|preventDefault={onClick}
-		/>
-		<span class="text text-secondary">Cheap</span>
-	</div>
-	<div class="tog-contaiiner">
-		<input
-			id="f"
-			type="checkbox"
-			class="toggle toggle-lg toggle-accent drop-shadow-lg"
-			bind:checked={gcf.f}
-			on:click|preventDefault={onClick}
-		/> <span class="text text-accent">Fast</span>
+<!-- <div class="card bordered">
+    <div class="card-body">
+      <h2 class="card-title">Image bottom</h2> 
+      <p>Rerum reiciendis beatae tenetur excepturi aut pariatur est eos. Sit sit necessitatibus veritatis sed molestiae voluptates incidunt iure sapiente.</p> 
+      <div class="card-actions">
+        <button class="btn btn-primary">Login</button> 
+        <button class="btn btn-ghost">Register</button>
+      </div>
+    </div> 
+    <figure>
+      <img src="https://picsum.photos/id/1005/400/250">
+    </figure>
+  </div>  -->
+<div class="mockup-window bg-base-300">
+	<div class="card-body bg-gray-50">
+		<p class="text-gray-500 font-semibold text-center">We offer 3 kinds of services.</p>
+		<h4 class="card-title uppercase font-bold text-gray-600 text-center">Good × Cheap × Fast</h4>
+		<p class="text-gray-500 font-semibold text-center mb-3">But you can pick only two.</p>
+		<div class="tog-contaiiner mt-5">
+			<input
+				id="g"
+				type="checkbox"
+				class="toggle toggle-lg toggle-primary drop-shadow-lg"
+				bind:checked={gcf.g}
+				on:click|preventDefault={onClick}
+			/> <span class="text text-primary">Good</span>
+		</div>
+		<div class="tog-contaiiner">
+			<input
+				id="c"
+				type="checkbox"
+				class="toggle toggle-lg toggle-secondary drop-shadow-lg"
+				bind:checked={gcf.c}
+				on:click|preventDefault={onClick}
+			/>
+			<span class="text text-secondary">Cheap</span>
+		</div>
+		<div class="tog-contaiiner">
+			<input
+				id="f"
+				type="checkbox"
+				class="toggle toggle-lg toggle-accent drop-shadow-lg"
+				bind:checked={gcf.f}
+				on:click|preventDefault={onClick}
+			/> <span class="text text-accent">Fast</span>
+		</div>
+		<div>
+			<p class="text-center text-xs mt-8 hover:font-semibold">
+				<a href="https://github.com/poonlap/gcf"> Github</a>
+			</p>
+			<p class="text-center text-xs hover:font-semibold">
+				<a href="https://kit.svelte.dev/" class="hover:font-semibold">Svelte(kit)</a> ❤
+				<a href="https://tailwindcss.com/">Tailwindcss</a>
+				• <a href="https://daisyui.com/">Daisy UI</a>
+			</p>
+		</div>
 	</div>
 </div>
 
@@ -68,9 +96,9 @@
 <p>Last clicked: {lastClick}</p>
 </div> -->
 <style>
-    .tog-contaiiner {
-        @apply flex items-center mb-2;
-    }
+	.tog-contaiiner {
+		@apply flex items-center mb-2;
+	}
 	.tog {
 		@apply toggle toggle-lg;
 	}
